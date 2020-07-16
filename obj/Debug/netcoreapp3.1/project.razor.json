@@ -20556,11 +20556,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Thiago\\Projetos\\C#\\EPlayers\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "d:\\Thiago\\Projetos\\C#\\EPlayers\\Views\\Noticias\\Index.cshtml",
       "TargetPath": "Views\\Noticias\\Index.cshtml",
       "FileKind": "mvc"

@@ -20,7 +20,6 @@ D:\Thiago\Projetos\C#\EPlayers\obj\Debug\netcoreapp3.1\EPlayers.TagHelpers.input
 D:\Thiago\Projetos\C#\EPlayers\obj\Debug\netcoreapp3.1\EPlayers.TagHelpers.output.cache
 D:\Thiago\Projetos\C#\EPlayers\obj\Debug\netcoreapp3.1\EPlayers.RazorCoreGenerate.cache
 D:\Thiago\Projetos\C#\EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\Thiago\Projetos\C#\EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Thiago\Projetos\C#\EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Thiago\Projetos\C#\EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Thiago\Projetos\C#\EPlayers\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs

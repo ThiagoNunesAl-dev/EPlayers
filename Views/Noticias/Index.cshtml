@@ -2,28 +2,36 @@
 @{
     ViewData["Title"] = "Noticias";
 }
-<div class="title">
-    <h1 class = "noticias_titulo">Notícias</h1>
+<div class="titulo_pagina">
+    <h1>cadastro de @ViewData["Title"]</h1>
 </div>
 
-<form action="@Url.Action("Cadastrar")" method="post" enctype="multipart/form-data">
+<form class = "cadastro" action="@Url.Action("Cadastrar")" method="post" enctype="multipart/form-data">
 
-    <label for="IdNoticia">IdNoticia</label>
-    <input type="text" name="IdNoticia" id="IdNoticia">
+    <div class="campo">
+        <label for="IdNoticia">IdNoticia</label>
+        <input type="text" name="IdNoticia" id="IdNoticia">
+    </div>
 
-    <label for="Imagem">Imagem</label>
-    <input type="file" name="Imagem" id="Imagem">
+    <div class="campo">
+        <label for="Imagem">Imagem</label>
+        <input type="file" name="Imagem" id="Imagem">
+    </div>
 
-    <label for="Titulo">Título</label>
-    <input type="text" name="Titulo" id="Titulo">
+    <div class="campo">
+        <label for="Titulo">Título</label>
+        <input type="text" name="Titulo" id="Titulo">
+    </div>
 
-    <label for="Texto">Texto</label>
-    <input type="text" name="Texto" id="Texto">
+    <div class="campo">
+        <label for="Texto">Texto</label>
+        <input type="text" name="Texto" id="Texto">
+    </div>
 
     <button type="submit">Postar</button>
 </form>
 
-<table class = "table table-responsive table-stripped">
+<table>
     <thead>
         <th>Id</th>
         <th>Imagem</th>
@@ -42,7 +50,9 @@
                 <td>@item.Titulo</td>
                 <td>@item.Texto</td>
                 <td>
-                    <a asp-controller = "Noticias" asp-action = "Excluir" asp-route-id = "@item.IdNoticia">Excluir</a>
+                    <a asp-controller = "Noticias" asp-action = "Excluir" asp-route-id = "@item.IdNoticia">
+                        <i class = "fa fa-trash"></i>
+                    </a>
                 </td> 
             </tr>
         }
